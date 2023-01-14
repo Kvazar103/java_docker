@@ -63,6 +63,8 @@
                             <artifactId>lombok</artifactId>
                         </exclude>
                     </excludes>
+                    <outputDirectory>backend</outputDirectory><!--білдити все в папку бекенд-->
+                    <finalName>app</finalName> <!--імя файлу -->
                 </configuration>
             </plugin>
         </plugins>
